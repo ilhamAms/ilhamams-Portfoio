@@ -1,0 +1,107 @@
+.home-container {
+
+    height: 90vh;
+    width: 720px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+
+    .profile {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            align-self: self-start;
+
+            h1 {
+                font-size: 3rem;
+                line-height: 1.1;
+            }
+
+            span {
+                color: hsl(60, 1%, 70%);
+            }
+
+            .link-icon {
+                display: flex;
+                gap: .8rem;
+
+                .link-icons {
+                    font-size: 1.5rem;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .section-image {
+            width: 250px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid #6d6969;
+            cursor: pointer;
+
+            &:hover img {
+                filter: grayscale(0%);
+            }
+
+            img {
+                width: 250px;
+                filter: grayscale(30%);
+            }
+        }
+    }
+
+    .tech-skills {
+        align-self: self-start;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+
+        .tech-text {
+            font-size: 1rem;
+            font-weight: var(--fw-700);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .stacks {
+            display: flex;
+            margin-left: 5rem;
+            gap: 3rem;
+
+            .icon {
+                font-size: 2rem;
+                cursor: pointer;
+            }
+            .html {
+                color: hsl(29, 100%, 50%);
+            }
+            .css {
+                color: blue;
+            }
+            .react {
+                color: rgb(44, 159, 226);
+            }
+            .js {
+                color: hsl(49, 100%, 50%);
+            }
+            .tailwind {
+                color: rgb(44, 159, 226);
+            }
+            .sass {
+                color: palevioletred;
+            }
+        }
+    }
+
+}
