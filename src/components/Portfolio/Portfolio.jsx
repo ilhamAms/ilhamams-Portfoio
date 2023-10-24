@@ -6,6 +6,8 @@ import PropsPortfolio from "./PropsPortfolio";
 import img1 from "../../assets/img/portfolio-1.png";
 import img2 from "../../assets/img/portfolio-2.png";
 import img3 from "../../assets/img/portfolio-3.png";
+import {motion} from 'framer-motion'
+
 const Portfolio = () => {
   return (
     <div className="container">
@@ -16,6 +18,7 @@ const Portfolio = () => {
           <MdOutlineCollectionsBookmark />
         </span>
 
+        
         <PropsPortfolio
         className="portfolio"
           title="Personal Portfolio"
@@ -27,7 +30,7 @@ const Portfolio = () => {
           liveDeno="https://ilhamams.pages.dev/"
           github=""
         />
-
+      
         <PropsPortfolio
           className="portfolio real-estate"
           title="Real estate Landing Page"
