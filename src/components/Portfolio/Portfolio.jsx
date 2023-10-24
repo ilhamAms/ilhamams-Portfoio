@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <div className="container">
       <div className="portfolio-container" id="portfolio">
-        <h4 className="title">PORTFOLIO</h4>
+        <h4 className="title">PORTFOLIO ME</h4>
         <span className="flex">
           Each project is a unique piece of development{" "}
           <MdOutlineCollectionsBookmark />
