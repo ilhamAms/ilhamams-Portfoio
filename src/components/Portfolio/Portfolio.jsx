@@ -14,8 +14,8 @@ const Portfolio = () => {
       <div className="portfolio-container" id="portfolio">
         <h4 className="title">PORTFOLIO ME</h4>
         <span className="flex">
-          Each project is a unique piece of development{" "}
-          <MdOutlineCollectionsBookmark />
+          Each project is a unique piece of development
+         
         </span>
 
         
@@ -44,7 +44,7 @@ const Portfolio = () => {
         />
 
         <PropsPortfolio
-         className="portfolio"
+          className="portfolio"
           title="Hookbook Landing Page "
           des="lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ad cumque non quisquam odit doloremque delectus corporis "
           img={img3}
