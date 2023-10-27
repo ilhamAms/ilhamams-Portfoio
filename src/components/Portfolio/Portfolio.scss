@@ -25,7 +25,8 @@
     span {
         font-size: 22px;
         font-weight: var(--fw-700);
-        gap: 0.5rem;
+        line-height: 1.2;
+        margin-top: 1rem;
     }
     .real-estate {
         display: flex;
@@ -82,6 +83,7 @@
                     right: 0;
                 }
             }
+
             .detail {
                 font-size: 14px;
                 font-weight: var(--fw-400);
@@ -134,7 +136,7 @@
     .portfolio-container {
         .portfolio {
             flex-direction: column;
-            
+
             .description {
                 padding: 2rem;
                 .source {
@@ -142,9 +144,9 @@
                 }
             }
         }
-        .real-estate{
+        .real-estate {
             flex-direction: column !important;
-            border: 2px solid red;
+
             .description {
                 padding: 2rem;
                 .source {

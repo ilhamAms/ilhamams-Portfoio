@@ -3,6 +3,7 @@ import "./Navbar.scss";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { AiOutlineCloseSquare } from "react-icons/ai";
 import { Component } from "react";
+import { GrClose } from "react-icons/gr";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -51,7 +52,7 @@ class Navbar extends Component {
           </div>
           <div className="responsive-menu" onClick={this.handleClick}>
             {this.state.clicked ? (
-              <AiOutlineCloseSquare className="icon" />
+              <GrClose className="icon" />
             ) : (
               <HiOutlineMenuAlt2 className="icon" />
             )}

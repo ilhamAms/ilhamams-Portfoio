@@ -6,7 +6,6 @@
         font-size: 18px;
         color: hsl(0, 100%, 50%);
         font-weight: var(--fw-700);
-        
     }
     span {
         font-weight: var(--fw-700);
@@ -17,7 +16,6 @@
         margin-top: 30px;
         flex-wrap: wrap;
         .icon {
-            
             .section-icon {
                 .i {
                     font-size: 1.8rem;
@@ -35,5 +33,20 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width:750px) {
+    .contact-container {
+        
+       text-align: center;
+
+        .contact {
+            justify-content: center;
+            .section-text{
+                text-align: left;
+            }
+        }
+        
     }
 }
