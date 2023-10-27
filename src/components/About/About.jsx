@@ -12,9 +12,9 @@ const About = () => {
         <div className="section-text">
           <h4 className="title">ABOUT ME</h4>
           <h3 className='des'>A dedicated Front-end Developer based in South of Thailand </h3>
-          <span className='detail'>
+          <p className='detail'>
             As a junior Front-end Developer, I possess and impressive of skills in Html, CSS, JavaScript, React, Tailwind, Ans SASS, I excel design and maintaining responsive website that offer a smooth user experience. 
-          </span>
+          </p>
         </div>
       </div>
     </div>
