@@ -26,7 +26,7 @@ const Home = () => {
               <a href="#">
                 <BsLinkedin className='link-icons' />
               </a>
-              <a href="#">
+              <a href="https://github.com/ilhamAms">
                 <BsGithub className='link-icons' />
               </a>
 

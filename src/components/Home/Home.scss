@@ -36,7 +36,7 @@
                 gap: .8rem;
 
                 .link-icons {
-                    font-size: 1.5rem;
+                    font-size: 2.5rem;
                     cursor: pointer;
                 }
             }
@@ -105,4 +105,47 @@
         }
     }
 
+}
+
+@media screen and (max-width:750px){
+    .home-container{
+        .profile {
+            flex-direction: column-reverse;
+            gap: 3rem;
+            .text {
+              margin: 0 auto;
+              .link-icon {
+            
+                justify-content: center;
+                cursor: pointer;
+                .link-icons {
+                    font-size: 2rem;
+                   
+                }
+              }
+            }
+
+        }
+
+        .tech-skills {
+            flex-direction: column;
+            margin: 0 auto;
+            justify-content: space-between;
+            
+            margin-top: 3rem;
+            gap: 2rem;
+            .tech-text {
+                
+                text-align: left;
+                align-self: flex-start;
+                font-weight: var(--fw-700);
+            }
+            .stacks {
+                margin: 0;
+                display: flex;
+                flex-wrap: wrap;
+              
+            }
+        }
+    }
 }
