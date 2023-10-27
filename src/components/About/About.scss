@@ -36,29 +36,26 @@
     }
 }
 
-@media screen and (max-width:750px) {
-       .container {
-       
-        margin:  0 auto;
-       
-        .about-container{
-          
+@media screen and (max-width: 750px) {
+    .container {
+        margin: 0 auto;
+
+        .about-container {
             flex-direction: column-reverse;
-            margin:  0 auto;
-           
+            margin: 0 auto;
+
             justify-content: center;
             .section-text {
-              
-              .des {
-                line-height: 1.1;
-                margin-top: 1rem;
-              }
-              .detail {
-               line-height: 1.5;
-               text-align: justify;
-               font-size: 14px;
-              }
+                .des {
+                    line-height: 1.1;
+                    margin-top: 1rem;
+                }
+                .detail {
+                    line-height: 1.5;
+                    text-align: justify;
+                    font-size: 14px;
+                }
             }
         }
-       }
+    }
 }
