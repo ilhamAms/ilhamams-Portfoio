@@ -13,6 +13,7 @@ import { PiStackSimpleThin } from "react-icons/pi"
 
 // img
 import profile from "../../assets/img/profile.jpg"
+import profile1 from "../../assets/img/Jhondow.jpg"
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
         <div className="profile">
           <div className="text">
             <h1>Front-End React <br /> Developer </h1>
-            <span>Hi,I'm Ilham Ameesa. A Junior Front-end React <br />  Developer based in Yala. Thailand </span>
+            <span>Hi,I'm Jhon doe. A Junior Front-end React <br />  Developer based in Thailand </span>
             <div className="link-icon">
               <a href="#">
                 <BsLinkedin className='link-icons' />
@@ -33,7 +34,7 @@ const Home = () => {
             </div>
           </div>
           <div className="section-image">
-            <img src={profile} alt="" />
+            <img src={profile1} alt="" />
           </div>
         </div>
         <div className="tech-skills">
